@@ -1,0 +1,64 @@
+sudo apt-get install git
+cd Projekte/GitHubRepositories/
+ls -l
+mkdir metznick
+cd metznick/
+ls -l
+git clone git@github.com:metznick/Test.git
+ls -l
+cd te
+cd Test/
+ls -l
+cat README.md 
+vi README.md 
+vim README.md 
+sudo apt install vim
+vi README.md 
+git diff
+ls -l
+ls -la
+git commit -a
+git push
+ls -l
+git pull
+git diff
+cat README.md 
+git diffc776bd9..6d04afa
+git diff c776bd9..6d04afa
+git log
+git pull
+git log
+git reset af9f834
+ls -l
+cat README.md 
+git reset af9f834 -f
+git reset af9f834 -h
+git reset af9f834 -hard
+git reset af9f834 --hard
+cat README.md 
+git log
+git push
+git commit 
+git log
+git pull
+git log
+git reset af9f83 --hard
+git commit 
+git push
+git push --force
+git log
+git tag v01.00-initial-version
+git log
+git push
+git push --tags
+vi zweiteDatai.txt
+ls -l
+git commit -a
+git add zweiteDatai.txt 
+git commit -a
+ls -l
+git log
+git tag zweiteDatei.txt
+git push --tags
+git push
+history >> hist.txt
